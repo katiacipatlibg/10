@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .bg-princess-pattern {
+    background-color: #fff1f2;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fecdd3' fill-opacity='0.5' fill-rule='evenodd'%3E%3Cpath d='M25 60l15-25 10 15 10-15 15 25H25zm25-30a5 5 0 100-10 5 5 0 000 10zm-25 5a5 5 0 100-10 5 5 0 000 10zm50 0a5 5 0 100-10 5 5 0 000 10z'/%3E%3Cpath d='M15 25l2-6 6-2-6-2-2-6-2 6-6 2 6 2zM85 75l2-6 6-2-6-2-2-6-2 6-6 2 6 2zM50 85l1.5-4.5 4.5-1.5-4.5-1.5-1.5-4.5-1.5 4.5-4.5 1.5 4.5 1.5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
